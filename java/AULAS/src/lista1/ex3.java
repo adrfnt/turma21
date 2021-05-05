@@ -19,19 +19,19 @@ public class ex3 {
 		//processamento e saida
 		
 		if (idade <= 10) {
-			System.out.println("Você está em outra categoria");
+			System.out.println("Você está em outra categoria (Menor que Infantil)");
 		}		
 		else if(idade > 10 && idade <=14 ) {
 			System.out.println("Você está na categoria Infantil");
 			} 
-		else if (idade > 15 && idade <= 17) {
+		else if (idade >= 15 && idade <= 17) {
 			System.out.println("Você está na categoria Juvenil");
 		} 
-		else if (idade > 18 && idade <= 25) {
+		else if (idade >= 18 && idade <= 25) {
 			System.out.println("Você está na categoria adulto");
 		} 
 		else if (idade >=26){
-			System.out.println("Você está em outra categoria");
+			System.out.println("Você está em outra categoria (Maior que Adulto)");
 		}
 				
 		leia.close();
