@@ -18,7 +18,7 @@ programa
 		
 		TotalDias = (idadeAnos*365) + (idadeMeses*31) + idadeDias 
 
-		escreva ("Sua idade em dias é de: ", +TotalDias , "dias")
+		escreva ("Sua idade em dias é de: ", TotalDias , "dias")
 		
 	}
 }
@@ -27,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 37; 
+ * @POSICAO-CURSOR = 472; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
