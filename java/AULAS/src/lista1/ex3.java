@@ -2,7 +2,7 @@ package lista1;
 
 import java.util.Scanner;
 
-public class ex3 {
+public class Ex3 {
 
 	public static void main(String[] args) {
 
@@ -30,7 +30,8 @@ public class ex3 {
 		else if (idade >= 18 && idade <= 25) {
 			System.out.println("Você está na categoria adulto");
 		} 
-		else if (idade >=26){
+		//else if (idade >=26)
+		else {
 			System.out.println("Você está em outra categoria (Maior que Adulto)");
 		}
 				
