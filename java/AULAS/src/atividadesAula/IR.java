@@ -18,8 +18,6 @@ public class IR {
 		double salarioAnual, salarioMes, imposto=0f;
 		boolean auxilio;
 		
-		//double imposto = 0f;
-		
 		//entradas
 		
 		System.out.printf("Por favor, informe seu nome: ");
