@@ -1,4 +1,4 @@
-package lista;
+package lista0VO;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package lista1;
+package lista1LD;
 
 import java.util.Arrays;
 import java.util.Scanner;

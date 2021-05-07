@@ -1,4 +1,4 @@
-package lista2;
+package lista2LR;
 
 import java.util.Scanner;
 
