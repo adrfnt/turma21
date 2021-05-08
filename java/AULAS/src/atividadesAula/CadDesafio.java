@@ -10,6 +10,14 @@ public class CadDesafio {
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in);
 
+		/*
+		 * gX-1 até 35 (G1 - 1, G1 - 2, G1 - 3 .... G1 - 35)
+		 * 
+		 * PARTICIPANTES: LISTA DE ALUNOS MATRICULA - NOME DIGITE A MATRICULA DO ALUNO
+		 * PARA CADASTRO DE NOTA: _ DIGITE A NOTA DO ALUNO: _ CONTINUA S/N CASO NÃO -
+		 * MOSTRA LISTA DE ALUNOS MATRICULA E NOME APENAS DOS QUE TEM NOTA. VETOR NOTAS
+		 * VETOR MATRICULA VETOR ALUNOS*/
+		
 		String alunos[] = { "Alexandre Salerno", "Alexsander da Silva Sousa", "Aline Moreira Brilhante",
 				"Ana Flávia Porto Silva Neves", "Andára Finot da Silva", "arthur reis allen", "Barbara dos Santos",
 				"Bruno Wesley Callachi Rocha", "Dafhne Noemi da Silva Novais", "David da Costa Mariano",

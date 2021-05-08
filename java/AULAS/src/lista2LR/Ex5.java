@@ -8,17 +8,21 @@ public class Ex5 {
 		Scanner leia = new Scanner (System.in);
 		int numero = 0, somaTotal = 0;
 
-		do 
-		{
+		do
+	    {
+	        System.out.println("Informe um valor ");
+	        numero = leia.nextInt();
 
-			System.out.println("Digite um número: ");
-			numero = leia.nextInt();
-			somaTotal+=numero;
-		}
-		while((numero%2)!=0);
+	        if(numero != 0)
+	        {
+	            somaTotal = somaTotal + numero;
+	        }
+	    }
+	    while (numero != 0);
 		
 		System.out.printf("A soma dos números digitados é: %d",somaTotal);
 		
 		leia.close();
 	}
 }
+
