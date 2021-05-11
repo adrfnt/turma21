@@ -14,14 +14,14 @@ public class Cliente {
 		cliente1.nome = leia.next();
 		System.out.println("Digite o ano de nascimento do primeiro cliente: ");
 		cliente1.anoNasc = leia.nextInt();
-		System.out.println("Digite o documento do primeiro cliente? ");
+		System.out.println("Digite o documento do primeiro cliente: ");
 		cliente1.doc = leia.nextInt();
 				
 		System.out.println("Digite o nome do segundo cliente: ");
 		cliente2.nome = leia.next();
 		System.out.println("Digite o ano de nascimento do segundo cliente: ");
 		cliente2.anoNasc = leia.nextInt();
-		System.out.println("Digite o documento do primeiro segundo? ");
+		System.out.println("Digite o documento do segundo cliente: ");
 		cliente2.doc = leia.nextInt();
 		
 		System.out.printf("Primeiro cliente %s tem %d anos e documento: %d",cliente1.nome,cliente1.calculaIdade(2021), cliente1.doc);
