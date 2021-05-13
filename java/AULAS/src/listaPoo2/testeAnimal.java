@@ -13,14 +13,11 @@ public class testeAnimal {
 	cachorro.emitirSom();
 	cachorro.movimento();
 
-	
-
 	System.out.println("Nome: "+cavalo.getNome());
 	System.out.println("Idade: "+cavalo.getIdade());
 	cavalo.emitirSom();
 	cavalo.movimento();
 	
-
 	System.out.println("Nome: "+preguica.getNome());
 	System.out.println("Idade: "+preguica.getIdade());
 	preguica.emitirSom();
