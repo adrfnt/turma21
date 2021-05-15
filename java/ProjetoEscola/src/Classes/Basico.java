@@ -1,4 +1,4 @@
-package ProjetoJava;
+package Classes;
 
 public class Basico extends Estudante { //
 
