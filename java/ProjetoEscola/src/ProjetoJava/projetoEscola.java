@@ -6,6 +6,8 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class projetoEscola {
+	
+	//Passando para Java do Portugol, trabalho em Grupo realizado com Ana Flavia, Guilherme Lopes, Robson e Leto.
 
 	public static void main(String[] args) {
 

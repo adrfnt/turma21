@@ -2,7 +2,7 @@ package listaPoo2;
 
 import Interfaces.InterfaceAnimal;
 
-public abstract class Animal implements InterfaceAnimal {
+public abstract class Animal implements InterfaceAnimal { //Corrigir, inserir interface diretamente nas subclasses, pois classe animal é genérica(abstrata)
 
 	// atributos
 	private String nome;

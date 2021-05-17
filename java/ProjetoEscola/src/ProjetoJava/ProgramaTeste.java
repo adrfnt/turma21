@@ -9,6 +9,7 @@ import Classes.Basico;
 import Classes.Graduacao;
 import Classes.Medio;
 import Classes.Mestrado;
+import Classes.Pos;
 
 
 
@@ -25,7 +26,7 @@ public class ProgramaTeste {
 		double pontosx =0.0;
 		char notax,continuar,pediBoletim;
 		
-		String tipo[] = { "Básico", "MÉDIO", "GRADUAÇÃO", "PÓS", "MESTRADO" };
+		String tipo[] = { "BÁSICO", "MÉDIO", "GRADUAÇÃO", "PÓS", "MESTRADO" };
 		
 		
 		System.out.println("\nEducaNorte\nEnsinar é o nosso forte");
@@ -39,7 +40,7 @@ public class ProgramaTeste {
 		
 		case 1: {
 					
-					System.out.println("\nENSINO BASICO\n");
+					System.out.println("\nENSINO BÁSICO\n");
 				
 					System.out.print("Digite o nome do aluno:");
 			 		String nome = leia.next().toUpperCase();
@@ -175,7 +176,7 @@ public class ProgramaTeste {
 		   	 double nota = leia.nextDouble();
 		   	 
 		   
-		   	 Mestrado pos1 = new Mestrado(matricula, cpf, 5);
+		   	 Pos pos1 = new Pos(matricula, cpf, 5);
 		   	 pos1.getMatricula();
 		   	 pos1.getCpf();
 		   	 pos1.adicionarNota(nota);
@@ -241,7 +242,7 @@ public class ProgramaTeste {
 		case 6: {
 			
 			//Chamando a LISTA 1 collection!!
-			Collection<String> nomes = new ArrayList();
+			Collection<String> nomes = new ArrayList<String>();
 			//Adicionando Collection Manualmente, add como programador
 			nomes.add("Leticia");
 			nomes.add("Neymar");
@@ -286,10 +287,10 @@ public class ProgramaTeste {
 			System.out.println("Opção Inválida!");
 			break;
 		}
-
-		
+				
 		}
-
+		leia.close();
+		teclado.close();
 	}
 
 }
