@@ -43,9 +43,8 @@ select * from tb_pizza where preco > 45.00;
 select * from tb_pizza where preco between 29.00 and 60.00;
 select * from tb_pizza where sabor like "%C%";
 
-select tb_pizza.sabor, tb_pizza.preco, tb_pizza.precoEspecial, tb_pizza.disponivel, tb_categoria.categoria 
-from tb_pizza
-inner join tb_categoria
-on tb_categoria.id = tb_pizza.categoria_id; 
+select * from tb_pizza inner join tb_categoria on tb_categoria.id = tb_pizza.categoria_id
+    where tb_categoria.tamanho = "Grande";
 
-select * from tb_pizza where categoria_id = 1;
+select sum(preco) from tb_pizza;
+select avg (preco) as media_preco from tb_pizza;
