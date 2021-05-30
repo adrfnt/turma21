@@ -4,8 +4,8 @@ use db_cidade_das_frutas;
 
 create table tb_categoria(
 	id bigint auto_increment,
-	tipo varchar (255),
-	estoque varchar (255),
+	tipo varchar (255) not null,
+	estoque varchar (255) not null,
 	ativo boolean not null,
     
 	primary key(id)
